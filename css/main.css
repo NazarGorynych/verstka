@@ -10,12 +10,49 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+.right_div {
+  background-color: black;
+  width: 270px;
+  height: 100%;
+  box-shadow: 2px 3px 10px black;
+  color: wheat;
+  position: absolute;
+}
+.sub_divs {
+  color: white;
+  font-size: x-large;
+  margin: 25px;
+  position: relative;
+  text-align: left;
+}
+.header_background {
+  background-color: black;
+  box-shadow: 0 3px 10px black;
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  right: 300px;
+}
+
+th {
+  width: 900px;
+  height: 80px;
+  font-size: larger;
+}
+
 
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  background: linear-gradient(#d22d2d, #9f6060) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
